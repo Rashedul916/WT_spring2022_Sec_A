@@ -6,10 +6,9 @@
 	<title>Document</title>
 </head>
 <body>
-	<img src="../Practice/images/cartoon.gif" alt="Blue solid color" width="300px" height="250px">
 	<h1>Registration Form</h1>
 	<hr>
-	<form action="">
+	<form action="" method="POST">
 		<table>
 			<tr>
 				<td>First Name:</td>
@@ -26,23 +25,17 @@
 			<tr>
 				<td>Designation:</td>
 				<td>
-					<input type="radio" name="designation">
-					Junior Programmer
-					<input type="radio" name="designation">
-					Senior Programmer
-					<input type="radio" name="designation">
-					Project Lead
+					<input type="radio" name="designation" value="Junior Programmer">Junior Programmer
+					<input type="radio" name="designation" value="Senior Programmer">Senior Programmer
+					<input type="radio" name="designation" value="Project Lead">Project Lead
 				</td>
 			</tr>
 			<tr>
 				<td>Preferred Language</td>
 				<td>
-					<input type="checkbox" name="planguage" value>
-					Java
-					<input type="checkbox" name="planguage" value>
-					PHP
-					<input type="checkbox" name="planguage" value>
-					C++
+					<input type="checkbox" name="planguage_1" value="Java">Java
+					<input type="checkbox" name="planguage_2" value="PHP">PHP
+					<input type="checkbox" name="planguage_3" value="C++">C++
 				</td>
 			</tr>
 			<tr>
@@ -51,7 +44,7 @@
 			</tr>
 			<tr>
 				<td>Password:</td>
-				<td><input type="Password" name="password"></td>
+				<td><input type="Password" name="pass"></td>
 			</tr>
 			<tr>
 				<td>Please choose a file</td>
@@ -59,8 +52,8 @@
 			</tr>
 			<tr>
 				<td>
-					<input type="submit" name="">
-					<input type="reset" name="" id="">
+					<input type="submit" name="submit">
+					<input type="reset" name="reset" id="">
 				</td>
 			</tr>
 		</table>
@@ -68,3 +61,9 @@
 	
 </body>
 </html>
+
+<?php
+
+include "../control/valid.php";
+
+?>

@@ -1,0 +1,42 @@
+[
+    {
+        "fname": "Dr. Hasan Imam",
+        "email": "rashedulislamridoy@gmail.com",
+        "phone": "01316-576404",
+        "age": "33",
+        "speciality": "on",
+        "bio": "I am a good doctor.",
+        "uname": "Hasan3425",
+        "pass": "12345678"
+    },
+    {
+        "fname": "Dr. Rakib Hajari",
+        "email": "hajari345@gmail.com",
+        "phone": "01423-495867",
+        "age": "23",
+        "speciality": "Medicine",
+        "bio": "I am a Doctor.",
+        "uname": "Rakib8475",
+        "pass": "74637485"
+    },
+    {
+        "fname": "Dr. Ismail Ahmed",
+        "email": "ismail234@gmail.com",
+        "phone": "01316-846273",
+        "age": "29",
+        "speciality": "Dental",
+        "bio": "I am a dentist",
+        "uname": "ismail",
+        "pass": "87654321"
+    },
+    {
+        "fname": "Dr. Bob",
+        "email": "bob555@gmail.com",
+        "phone": "09923847573",
+        "age": "34",
+        "speciality": "Neurology",
+        "bio": "MBBS (Dhaka), FCPS (Medicine), Trained in Neurology (Australia). Shaheed Suhrawardy Medical College & Hospital, Dhaka",
+        "uname": "bob",
+        "pass": "77632100"
+    }
+]
